@@ -43,5 +43,5 @@ console.log("received")
 })
 socket.on('leave', name=>
     {
-    append(`${name} left the Chat`, 'left')
+    append(`${name} disconnected`, 'left')
     })
